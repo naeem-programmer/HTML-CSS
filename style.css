@@ -1,4 +1,88 @@
-h1{
+/* Font Family */
 
-    color: red;
+   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero{
+
+    background-image: url(./anand-thakur-y0dSeflqUWo-unsplash.jpg);
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+  
+  
+}
+
+.hero h1{
+
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 60px;
+    
+}
+
+.article{
+
+    width: 80%;
+    margin: 60px auto;
+    background-color: aqua;
+    padding: 30px;
+    border-width: 15px;
+    border-color: rgb(169, 241, 24);
+    border-style:solid;
+}
+
+.article h2, #cow-type{
+
+    text-align: center;
+    font-size: 48px;
+    border-color: rgb(247, 235, 4);
+    border-width: 7px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.article p {
+
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.article p .imp{
+
+    font-weight: bold;
+    color: chocolate;
+
+
+}
+
+.cow-images{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: linear-gradient(10deg,pink, blue);
+    
+    
+}
+
+.cow-images div{
+
+    min-width: 100px;
+}
+
+.cow-images img{
+
+    width: 100%;
 }
